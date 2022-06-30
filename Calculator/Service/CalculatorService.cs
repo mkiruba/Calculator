@@ -8,9 +8,9 @@ namespace Calculator.Service
 {
     public class CalculatorService
     {
-        public int Add(int a, int b)
-        { 
-            return a + b;
+        public int Add(object a, object b)
+        {
+            return (int)a + (int)b;
         }
 
         public int Subtract(int a, int b)
