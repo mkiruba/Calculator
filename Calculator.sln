@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Test", "Calculator.Test\Calculator.Test.csproj", "{19451871-B4DB-4BE3-BA37-36ADE46F47B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{89778FF4-CB70-4554-804F-5106C10C84BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{89778FF4-CB70-4554-804F-5106C10C84BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{89E03C85-8661-49BD-B628-5C4680135DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{89778FF4-CB70-4554-804F-5106C10C84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89778FF4-CB70-4554-804F-5106C10C84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89778FF4-CB70-4554-804F-5106C10C84BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E03C85-8661-49BD-B628-5C4680135DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E03C85-8661-49BD-B628-5C4680135DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E03C85-8661-49BD-B628-5C4680135DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E03C85-8661-49BD-B628-5C4680135DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

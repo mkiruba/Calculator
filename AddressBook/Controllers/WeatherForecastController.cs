@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication1.Controllers
+namespace AddressBook.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -12,7 +12,6 @@ namespace WebApplication1.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {

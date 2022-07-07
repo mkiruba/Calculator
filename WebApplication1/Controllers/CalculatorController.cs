@@ -11,18 +11,17 @@ namespace WebApplication1.Controllers
         private ICalculatorService _calculatorService;
         private ILogger _logger;
 
-        public CalculatorController(ICalculatorService calculatorService, ILogger logger)
+        public CalculatorController(ICalculatorService calculatorService, ILogger<CalculatorController> logger)
         {
             _calculatorService = calculatorService;
             _logger = logger;
         }
 
-
         [HttpGet(Name = "GetInt")]
         public int Get()
         {
-            //add 2 + 3            
-            _logger.LogDebug("In calculation");
+            //add 2 + 3
+            _logger.LogWarning("In calculation");
             return _calculatorService.Add(2, 3);
         }
     }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace WebApplication1.Serivce;
 
 public class CalculatorService : ICalculatorService
-{
+{   
     public int Add(object a, object b)
-    {
+    {        
         return (int)a + (int)b;
     }
 
