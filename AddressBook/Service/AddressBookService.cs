@@ -5,7 +5,7 @@ namespace AddressBook.Service
 {
     public class AddressBookService : IAddressBookService
     {
-        private List<Address> addresses = new List<Address>();
+        private static List<Address> addresses = new List<Address>();
 
         public Address CreateAddress(int id, string firstName, string lastName, string addressLine1, string addressLine2, string city, string postCode)
         {
